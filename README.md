@@ -10,11 +10,17 @@ This is a small example file to show how it works. I included clsl.h at the top,
 # example.cpp
 
 #include <iostream>
-#include "clsl.h"                                                                                                                     int main() {                                                           // create a vec3
-    vec3 v = vec3(1);                                                                                                                     // modify the vec3
+#include "clsl.h"
+
+int main() {
+    // create a vec3
+    vec3 v = vec3(1);
+
+    // modify the vec3
     v += vec3(1,2,3);
     v = v - pow(v, 3.);
-                                                                       // print the vec3 to see the result
+
+    // print the vec3 to see the result
     std::cout << v << std::endl;
 }
 ```
@@ -27,4 +33,4 @@ So when I compile and run the code, it prints out a vec3 and I can see if its wh
 vec3(-6, -24, -60)
 ```
 
-You can add more complex code including function definiting etc so you can bring your shader code in and debug it easily. Not all the glsl types and functions are added yet but requests and PRs are welcome!
+You can add more complex code including function definitions and invocations etc so you can bring your shader code in and debug it easily. Not all the glsl types and functions are added yet but requests and PRs are welcome!
