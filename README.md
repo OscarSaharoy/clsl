@@ -26,3 +26,5 @@ So when I compile and run the code, it prints out a vec3 and I can see if its wh
 [oscar@tmx ~/projects/clsl] $ ./a.out
 vec3(-6, -24, -60)
 ```
+
+You can add more complex code including function definiting etc so you can bring your shader code in and debug it easily. Not all the glsl types and functions are added yet but requests and PRs are welcome!
