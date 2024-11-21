@@ -90,7 +90,7 @@ class mat3 {
 };
 
 std::ostream& operator<<( std::ostream& os, const vec3& v ) {
-	return ( os << "vec3( " << v.x << ", " << v.y << ", " << v.z << " )" );
+	return ( os << "vec3(" << v.x << ", " << v.y << ", " << v.z << ")" );
 }
 
 vec3 operator+( const vec3& a ) {
