@@ -142,6 +142,14 @@ float dot( const vec3& a, const vec3& b ) {
 	return a.x*b.x + a.y*b.y + a.z*b.z;
 }
 
+vec3 pow( const vec3& a, const float f ) {
+	return vec3( pow(a.x, f), pow(a.y, f), pow(a.z, f) );
+}
+
+vec3 pow( const vec3& a, const vec3& b ) {
+	return vec3( pow(a.x, b.x), pow(a.y, b.y), pow(a.z, b.z) );
+}
+
 vec3 cross( const vec3& a, const vec3& b ) {
 	return vec3(
 		a.y*b.z - a.z*b.y,
