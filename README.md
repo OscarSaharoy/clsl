@@ -4,7 +4,7 @@ This project is a C++ header file called `clsl.h` that you can use to add glsl l
 
 # Example
 
-This is a small example file to show how it works. I included clsl.h at the top, along with iostream so I can print out results. I can create a vec3 just like in glsl, do calculations and the print it out to see the result.
+This is a small example file to show how it works. I included clsl.h at the top, along with iostream so I can print out results. I can create a vec3 just like in glsl, do calculations and then print it out to see the result.
 
 ```C++
 # example.cpp
